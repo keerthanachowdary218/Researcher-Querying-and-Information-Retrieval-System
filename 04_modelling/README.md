@@ -1,0 +1,2 @@
+# Modelling
+The modelling folder includes two subfolders, one for hierarchical clustering and one for information retrieval. The hierarchical clustering folder allows the user to explore the clusters and subclusters that were created, and the information retrieval folder allows the user to insert a query and retrieve relevant publications. Both subfolders contain the necessary directions to use their code.
