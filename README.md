@@ -17,19 +17,18 @@ System Components
 Groups research publications and faculty profiles based on similar topics or research domains.
 Utilizes embeddings (e.g., BERT, SciBERT) to identify meaningful patterns in the textual data.
 Helps visualize clusters within the knowledge graph, making it easier to explore research trends.
-<img width="755" alt="Screenshot 2024-12-14 at 11 48 24 AM" src="https://github.com/user-attachments/assets/5c810b61-8838-43ba-bcc1-fee59641ee86" />
-
+![image](https://github.com/user-attachments/assets/3a37f8af-55fb-4c35-bb80-606142da9019)
 
 
 2. Information Retrieval (IR) Area
 Processes natural language queries to match external interests with relevant faculty profiles and publications.
 Employs IR techniques to efficiently search and rank results based on the query.
 Integrates with the clustering area to refine and visualize search results in context.
-<img width="776" alt="Screenshot 2024-12-14 at 11 49 08 AM" src="https://github.com/user-attachments/assets/b655a61d-79ca-42a4-8b33-8563932e7e4a" />
+![image](https://github.com/user-attachments/assets/d433bc8f-153e-47eb-916a-bfa162dbc484)
 
 This combination of clustering and IR enhances the system's ability to accurately and intuitively connect research interests with relevant expertise.
 
-<img width="724" alt="Screenshot 2024-12-14 at 11 50 56 AM" src="https://github.com/user-attachments/assets/949a8cc6-cd45-475b-9573-1d4a7befe953" />
+![image](https://github.com/user-attachments/assets/afaca84d-fef7-493c-9094-307426262077)
 
 
 
