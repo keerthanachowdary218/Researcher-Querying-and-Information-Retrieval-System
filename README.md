@@ -75,7 +75,7 @@ This project uses data sourced from Google Scholar, including publications autho
 
 This repository follows a typical data science workflow consisting of four key stages: Data Scraping, Data Cleaning, Data Exploration, and Modeling. The folders are organized to reflect each stage of the pipeline, ensuring a logical flow and ease of navigation.
 
-<img width="603" alt="Screenshot 2024-12-14 at 11 55 30 AM" src="https://github.com/user-attachments/assets/c5e7e0f1-967f-4a5c-8024-0645468c830a" />
+![image](https://github.com/user-attachments/assets/3e0a72d8-ec19-4f5c-ad47-9eaafc7dbdee)
 
 1. Data Scraping
 
