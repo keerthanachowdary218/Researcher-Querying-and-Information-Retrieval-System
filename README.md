@@ -1,3 +1,5 @@
+https://www.youtube.com/watch?v=-blHRAXS4Do
+
 # Researcher Querying and Information Retrieval System
 
 This project aims to build a Researcher Querying and Information Retrieval System for the Office of Corporate and Foundation Relations (OCFR) at Rice University. The system leverages natural language processing (NLP) techniques to connect companies and external stakeholders with the most appropriate faculty members based on their research publications. Our goal is to streamline the process of identifying and facilitating research collaborations by employing word embeddings, knowledge graphs, and machine learning models.
