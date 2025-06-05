@@ -1,3 +1,5 @@
+#why CDE/BERT/BART
+
 🧑‍💻 User Input: A Query Comes In
 Say the user types:
 
@@ -47,3 +49,4 @@ Because CDE produces better document-level nuance and precision, especially for 
 
 STEP 4: Return Results
 ✅ The top 5 papers are returned as final output.
+
