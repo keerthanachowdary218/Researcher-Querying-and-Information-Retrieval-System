@@ -1,0 +1,49 @@
+🧑‍💻 User Input: A Query Comes In
+Say the user types:
+
+"Who is researching MEMS for sensor applications?"
+
+Now your system kicks in:
+
+STEP 1: Initial Embedding (SBERT)
+✅ The query is first embedded using Sentence-BERT (SBERT).
+
+✅ SBERT converts the full query sentence into a numerical vector.
+
+✅ This vector represents the semantic meaning of the query.
+
+🔧 Why SBERT here?
+Because SBERT is optimized for sentence-level embeddings → captures general meaning of full query.
+
+STEP 2: First Level Retrieval (Broad Search)
+✅ You have previously extracted keyphrases (using BART) from all abstracts.
+
+✅ Those keyphrases have already been embedded into vectors using SBERT and stored in your system.
+
+✅ The system compares the query embedding (SBERT) to all keyphrase embeddings (SBERT) using cosine similarity.
+
+✅ This step returns the top l = 500 abstracts that seem broadly relevant based on keyword-level matching.
+
+🔧 Why keyphrases first?
+Because it's faster to search through compressed keyphrases, and ensures your system doesn't miss any obvious matches.
+
+STEP 3: Fine-tuning with CDE (Precise Ranking)
+✅ Now the query is embedded again, but this time using the CDE-small-v1 model.
+
+✅ CDE is better at capturing the fine-grained, full-document-level semantics.
+
+✅ For each of the 500 abstracts from Step 2:
+
+You already have their CDE embeddings (precomputed).
+
+You compare the query embedding (CDE) with each document embedding (CDE).
+
+Again using cosine similarity.
+
+✅ The system selects the top k = 5 most relevant papers.
+
+🔧 Why CDE here?
+Because CDE produces better document-level nuance and precision, especially for longer abstracts and subtle topic differences.
+
+STEP 4: Return Results
+✅ The top 5 papers are returned as final output.
